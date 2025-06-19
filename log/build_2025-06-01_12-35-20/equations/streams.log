@@ -1,0 +1,25 @@
+[0.481s] Invoking command in '/home/marco/projects/control_ws/src/equations': PYTHONPATH=/home/marco/projects/control_ws/build/equations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/equations build --build-base /home/marco/projects/control_ws/build/equations/build install --record /home/marco/projects/control_ws/build/equations/install.log --single-version-externally-managed install_data
+[0.664s] running egg_info
+[0.664s] writing ../../build/equations/equations.egg-info/PKG-INFO
+[0.664s] writing dependency_links to ../../build/equations/equations.egg-info/dependency_links.txt
+[0.664s] writing entry points to ../../build/equations/equations.egg-info/entry_points.txt
+[0.664s] writing requirements to ../../build/equations/equations.egg-info/requires.txt
+[0.665s] writing top-level names to ../../build/equations/equations.egg-info/top_level.txt
+[0.666s] reading manifest file '../../build/equations/equations.egg-info/SOURCES.txt'
+[0.666s] writing manifest file '../../build/equations/equations.egg-info/SOURCES.txt'
+[0.666s] running build
+[0.666s] running build_py
+[0.666s] copying equations/signal_generator.py -> /home/marco/projects/control_ws/build/equations/build/lib/equations
+[0.667s] running install
+[0.667s] running install_lib
+[0.667s] copying /home/marco/projects/control_ws/build/equations/build/lib/equations/signal_generator.py -> /home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages/equations
+[0.668s] byte-compiling /home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages/equations/signal_generator.py to signal_generator.cpython-310.pyc
+[0.668s] running install_data
+[0.668s] running install_egg_info
+[0.670s] removing '/home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages/equations-0.0.0-py3.10.egg-info' (and everything under it)
+[0.670s] Copying ../../build/equations/equations.egg-info to /home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages/equations-0.0.0-py3.10.egg-info
+[0.670s] running install_scripts
+[0.684s] Installing signal_node script to /home/marco/projects/control_ws/install/equations/lib/equations
+[0.684s] Installing simulator_node script to /home/marco/projects/control_ws/install/equations/lib/equations
+[0.684s] writing list of installed files to '/home/marco/projects/control_ws/build/equations/install.log'
+[0.706s] Invoked command in '/home/marco/projects/control_ws/src/equations' returned '0': PYTHONPATH=/home/marco/projects/control_ws/build/equations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/equations build --build-base /home/marco/projects/control_ws/build/equations/build install --record /home/marco/projects/control_ws/build/equations/install.log --single-version-externally-managed install_data

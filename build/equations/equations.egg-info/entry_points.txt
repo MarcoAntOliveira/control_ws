@@ -1,0 +1,5 @@
+[console_scripts]
+drone = equations.drone_simulator:main
+signal_node = equations.signal_generator:main
+simulator_node = equations.simulator_node:main
+

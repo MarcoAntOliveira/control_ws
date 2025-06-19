@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000385] (flight1) JobQueued: {'identifier': 'flight1', 'dependencies': OrderedDict()}
+[0.000421] (flight1) JobStarted: {'identifier': 'flight1'}
+[0.004781] (flight1) JobProgress: {'identifier': 'flight1', 'progress': 'cmake'}
+[0.005049] (flight1) Command: {'cmd': ['/usr/bin/cmake', '/home/marco/projects/control_ws/src/flight1', '-DCMAKE_INSTALL_PREFIX=/home/marco/projects/control_ws/install/flight1'], 'cwd': '/home/marco/projects/control_ws/build/flight1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marco'), ('LC_TIME', 'es_AR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/marco'), ('CHROME_DESKTOP', 'Hyper.desktop'), ('OLDPWD', '/home/marco/projects/control_ws/src'), ('TERM_PROGRAM_VERSION', '3.4.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_AR.UTF-8'), ('MANAGERPID', '1464'), ('SYSTEMD_EXEC_PID', '1816'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2778'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'marco'), ('JOURNAL_STREAM', '8:15111'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'marco'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/marco/.local/bin:/home/marco/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/marco:@/tmp/.ICE-unix/1613,unix/marco:/tmp/.ICE-unix/1613'), ('INVOCATION_ID', 'f0bd27452f6f4bfeab010375a7b74852'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_AR.UTF-8'), ('HYPER_CLI', '1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'es_AR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.33Q152'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'Hyper'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_AR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_AR.UTF-8'), ('LC_IDENTIFICATION', 'es_AR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marco/projects/control_ws/build/flight1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_AR.UTF-8'), ('LC_PAPER', 'es_AR.UTF-8'), ('COLCON', '1'), ('ELECTRON_NO_ATTACH_CONSOLE', '1')]), 'shell': False}
+[0.043090] (flight1) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.080443] (flight1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.085339] (flight1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099860] (-) TimerEvent: {}
+[0.131655] (flight1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.138118] (flight1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.138295] (flight1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.138562] (flight1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.140805] (flight1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.193353] (flight1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.198380] (flight1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.198592] (flight1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.198967] (flight1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.199929] (-) TimerEvent: {}
+[0.200332] (flight1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300037] (-) TimerEvent: {}
+[0.301585] (flight1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.360759] (flight1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.396678] (flight1) StderrLine: {'line': b"Error parsing '/home/marco/projects/control_ws/src/flight1/package.xml':\n"}
+[0.400147] (-) TimerEvent: {}
+[0.431444] (flight1) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.431659] (flight1) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[0.431743] (flight1) StderrLine: {'line': b'    main()\n'}
+[0.431810] (flight1) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[0.431874] (flight1) StderrLine: {'line': b'    raise e\n'}
+[0.431940] (flight1) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[0.432002] (flight1) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.432121] (flight1) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string\n'}
+[0.432181] (flight1) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[0.432234] (flight1) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate\n'}
+[0.432296] (flight1) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[0.432356] (flight1) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/marco/projects/control_ws/src/flight1/package.xml':\n"}
+[0.432427] (flight1) StderrLine: {'line': b'Invalid email " marcoolivera096@gmail.com" for person "marco"\n'}
+[0.444143] (flight1) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[0.444357] (flight1) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.444428] (flight1) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.444488] (flight1) StderrLine: {'line': b'  /home/marco/projects/control_ws/src/flight1/package.xml\n'}
+[0.444541] (flight1) StderrLine: {'line': b'  /home/marco/projects/control_ws/build/flight1/ament_cmake_core/package.cmake)\n'}
+[0.444591] (flight1) StderrLine: {'line': b'  returned error code 1\n'}
+[0.444640] (flight1) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.444687] (flight1) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.444733] (flight1) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[0.444779] (flight1) StderrLine: {'line': b'  CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)\n'}
+[0.444826] (flight1) StderrLine: {'line': b'\n'}
+[0.444871] (flight1) StderrLine: {'line': b'\x1b[0m\n'}
+[0.444916] (flight1) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.444971] (flight1) StdoutLine: {'line': b'See also "/home/marco/projects/control_ws/build/flight1/CMakeFiles/CMakeOutput.log".\n'}
+[0.447623] (flight1) CommandEnded: {'returncode': 1}
+[0.448068] (flight1) JobEnded: {'identifier': 'flight1', 'rc': 1}
+[0.458463] (-) EventReactorShutdown: {}

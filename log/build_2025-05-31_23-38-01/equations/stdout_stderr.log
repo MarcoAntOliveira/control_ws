@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/equations/equations.egg-info
+writing ../../build/equations/equations.egg-info/PKG-INFO
+writing dependency_links to ../../build/equations/equations.egg-info/dependency_links.txt
+writing entry points to ../../build/equations/equations.egg-info/entry_points.txt
+writing requirements to ../../build/equations/equations.egg-info/requires.txt
+writing top-level names to ../../build/equations/equations.egg-info/top_level.txt
+writing manifest file '../../build/equations/equations.egg-info/SOURCES.txt'
+reading manifest file '../../build/equations/equations.egg-info/SOURCES.txt'
+writing manifest file '../../build/equations/equations.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/marco/projects/control_ws/build/equations/build
+creating /home/marco/projects/control_ws/build/equations/build/lib
+creating /home/marco/projects/control_ws/build/equations/build/lib/equations
+copying equations/__init__.py -> /home/marco/projects/control_ws/build/equations/build/lib/equations
+running install
+running install_lib
+creating /home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages/equations
+copying /home/marco/projects/control_ws/build/equations/build/lib/equations/__init__.py -> /home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages/equations
+byte-compiling /home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages/equations/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/marco/projects/control_ws/install/equations/share
+creating /home/marco/projects/control_ws/install/equations/share/ament_index
+creating /home/marco/projects/control_ws/install/equations/share/ament_index/resource_index
+creating /home/marco/projects/control_ws/install/equations/share/ament_index/resource_index/packages
+copying resource/equations -> /home/marco/projects/control_ws/install/equations/share/ament_index/resource_index/packages
+creating /home/marco/projects/control_ws/install/equations/share/equations
+copying package.xml -> /home/marco/projects/control_ws/install/equations/share/equations
+running install_egg_info
+Copying ../../build/equations/equations.egg-info to /home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages/equations-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/marco/projects/control_ws/build/equations/install.log'

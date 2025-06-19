@@ -1,0 +1,35 @@
+[0.500s] Invoking command in '/home/marco/projects/control_ws/src/equations': PYTHONPATH=/home/marco/projects/control_ws/build/equations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/equations build --build-base /home/marco/projects/control_ws/build/equations/build install --record /home/marco/projects/control_ws/build/equations/install.log --single-version-externally-managed install_data
+[0.649s] running egg_info
+[0.650s] creating ../../build/equations/equations.egg-info
+[0.650s] writing ../../build/equations/equations.egg-info/PKG-INFO
+[0.650s] writing dependency_links to ../../build/equations/equations.egg-info/dependency_links.txt
+[0.650s] writing entry points to ../../build/equations/equations.egg-info/entry_points.txt
+[0.650s] writing requirements to ../../build/equations/equations.egg-info/requires.txt
+[0.650s] writing top-level names to ../../build/equations/equations.egg-info/top_level.txt
+[0.650s] writing manifest file '../../build/equations/equations.egg-info/SOURCES.txt'
+[0.652s] reading manifest file '../../build/equations/equations.egg-info/SOURCES.txt'
+[0.653s] writing manifest file '../../build/equations/equations.egg-info/SOURCES.txt'
+[0.653s] running build
+[0.653s] running build_py
+[0.653s] creating /home/marco/projects/control_ws/build/equations/build
+[0.653s] creating /home/marco/projects/control_ws/build/equations/build/lib
+[0.653s] creating /home/marco/projects/control_ws/build/equations/build/lib/equations
+[0.653s] copying equations/__init__.py -> /home/marco/projects/control_ws/build/equations/build/lib/equations
+[0.653s] running install
+[0.653s] running install_lib
+[0.654s] creating /home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages/equations
+[0.654s] copying /home/marco/projects/control_ws/build/equations/build/lib/equations/__init__.py -> /home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages/equations
+[0.655s] byte-compiling /home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages/equations/__init__.py to __init__.cpython-310.pyc
+[0.655s] running install_data
+[0.655s] creating /home/marco/projects/control_ws/install/equations/share
+[0.655s] creating /home/marco/projects/control_ws/install/equations/share/ament_index
+[0.655s] creating /home/marco/projects/control_ws/install/equations/share/ament_index/resource_index
+[0.655s] creating /home/marco/projects/control_ws/install/equations/share/ament_index/resource_index/packages
+[0.655s] copying resource/equations -> /home/marco/projects/control_ws/install/equations/share/ament_index/resource_index/packages
+[0.655s] creating /home/marco/projects/control_ws/install/equations/share/equations
+[0.655s] copying package.xml -> /home/marco/projects/control_ws/install/equations/share/equations
+[0.655s] running install_egg_info
+[0.657s] Copying ../../build/equations/equations.egg-info to /home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages/equations-0.0.0-py3.10.egg-info
+[0.657s] running install_scripts
+[0.673s] writing list of installed files to '/home/marco/projects/control_ws/build/equations/install.log'
+[0.694s] Invoked command in '/home/marco/projects/control_ws/src/equations' returned '0': PYTHONPATH=/home/marco/projects/control_ws/build/equations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marco/projects/control_ws/install/equations/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/equations build --build-base /home/marco/projects/control_ws/build/equations/build install --record /home/marco/projects/control_ws/build/equations/install.log --single-version-externally-managed install_data

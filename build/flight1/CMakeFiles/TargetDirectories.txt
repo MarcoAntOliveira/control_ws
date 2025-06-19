@@ -1,0 +1,9 @@
+/home/marco/projects/control_ws/build/flight1/CMakeFiles/uninstall.dir
+/home/marco/projects/control_ws/build/flight1/CMakeFiles/flight1_uninstall.dir
+/home/marco/projects/control_ws/build/flight1/CMakeFiles/test.dir
+/home/marco/projects/control_ws/build/flight1/CMakeFiles/edit_cache.dir
+/home/marco/projects/control_ws/build/flight1/CMakeFiles/rebuild_cache.dir
+/home/marco/projects/control_ws/build/flight1/CMakeFiles/list_install_components.dir
+/home/marco/projects/control_ws/build/flight1/CMakeFiles/install.dir
+/home/marco/projects/control_ws/build/flight1/CMakeFiles/install/local.dir
+/home/marco/projects/control_ws/build/flight1/CMakeFiles/install/strip.dir

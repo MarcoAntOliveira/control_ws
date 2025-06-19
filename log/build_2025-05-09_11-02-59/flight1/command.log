@@ -1,0 +1,2 @@
+Invoking command in '/home/marco/projects/control_ws/build/flight1': /usr/bin/cmake /home/marco/projects/control_ws/src/flight1 -DCMAKE_INSTALL_PREFIX=/home/marco/projects/control_ws/install/flight1
+Invoked command in '/home/marco/projects/control_ws/build/flight1' returned '1': /usr/bin/cmake /home/marco/projects/control_ws/src/flight1 -DCMAKE_INSTALL_PREFIX=/home/marco/projects/control_ws/install/flight1
